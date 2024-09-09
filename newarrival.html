@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Arrival</title>
+    <link href = "shop.css" rel="stylesheet">
+</head>
+<body>
+    <div class="head">
+        <div class="search-container">
+            <img id="logo" src="logo.jpg" height="40px" width="40"/>
+            <h1 id="design"><em>Elegence</em></h1>
+        </div>
+        <div class="search-container">
+            <input class="search-input" type="text" id="searchBox" placeholder="Type to search..." >
+            <button class="search-button" onclick="search()"><img class="heart" src="search-heart.svg" height="20px" width="20px"/></button>
+        </div>
+        <div class="search-container">
+            <img class="heart" src="heart-fill.svg" height="50px" width="40px"/>
+        </div>
+        <a href="cart.html"><div class ="search-container">
+            <img src="cart4.svg" height="40px" width="50px"/>
+        </div></a>
+    </div>
+    <img src="newarriwal.jpeg" height="500px" width="100%"/>
+    <div class="cloth-align">
+        <div class="clothin-align">
+            <div>
+                <img class="image" src="new/5.jpg" height="502px" width="402px"/>
+                <h2>New1</h2>
+                <p>Price: $50</p>
+                <button onclick="addToCart('New1', 50,'new/5.jpg')">Add to Cart</button>
+            </div>
+            <div>                
+                <img class="image" src="new/8.jpeg" height="502px" width="402px"/>
+                <h2>New2</h2>
+                <p>Price: $60</p>
+                <button onclick="addToCart('New2', 60,'new/8.jpg')">Add to Cart</button>
+            </div>
+        </div>
+        <div class="clothin-align">
+            <div>
+                <img class="image" src="new/9.jpeg" height="502px" width="402px"/>
+                <h2>New3</h2>
+                <p>Price: $100</p>
+                <button onclick="addToCart('New3', 100,'new/9.jpg')">Add to Cart</button>
+            </div>
+            <div>                
+                <img class="image" src="jeans/wide leg/ff.jpeg" height="502px" width="402px"/>
+                <h2>New4</h2>
+                <p>Price: $30</p>
+                <button onclick="addToCart('New4', 30,'jeans/wide leg/ff.jpeg')">Add to Cart</button>
+            </div>
+        </div>
+        <div class="clothin-align">
+            <div>
+                <img class="image" src="shirt/must.jpg" height="502px" width="402px"/>
+                <h2>New5</h2>
+                <p>Price: $37</p>
+                <button onclick="addToCart('New5', 37,'shirt/must.jpg')">Add to Cart</button>
+            </div>
+            <div>                
+                <img class="image" src="tops/vneck.jpg" height="502px" width="402px"/>
+                <h2>New6</h2>
+                <p>Price: $20</p>
+                <button onclick="addToCart('New6', 20,'tops/vneck.jpg')">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+    <script src="style.js"></script>
+</body>
+</html>

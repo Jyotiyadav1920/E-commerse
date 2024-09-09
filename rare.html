@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rare</title>,
+    <link href="shop.css" rel="stylesheet">
+</head>
+<body>
+    <div class="head">
+        <div class="search-container">
+            <img id="logo" src="logo.jpg" height="40px" width="40"/>
+            <h1 id="design"><em>Elegence</em></h1>
+        </div>
+        <div class="search-container">
+            <input class="search-input" type="text" id="searchBox" placeholder="Type to search..." >
+            <button class="search-button" onclick="search()"><img class="heart" src="search-heart.svg" height="20px" width="20px"/></button>
+        </div>
+        <div class="search-container">
+            <img class="heart" src="heart-fill.svg" height="50px" width="40px"/>
+        </div>
+        <a href="cart.html"><div class ="search-container">
+            <img src="cart4.svg" height="40px" width="50px"/>
+        </div></a>
+    </div>
+    <div class="cloth-align">
+        <div class="clothin-align">
+            <div>
+                <img class="image" src="new/4.jpg" height="502px" width="402px"/>
+                <h2>Rare1</h2>
+                <p>Price: $500</p>
+                <button onclick="addToCart('Rare1', 500,'new/4.jpg')">Add to Cart</button>
+            </div>
+            <div>                
+                <img class="image" src="new/2.jpg" height="502px" width="402px"/>
+                <h2>Rare2</h2>
+                <p>Price: $300</p>
+                <button onclick="addToCart('Rare2', 300,'new/2.jpg')">Add to Cart</button>
+            </div>
+        </div>
+        <div class="clothin-align">
+            <div>
+                <img class="image" src="new/3757e795961677f3f1dff6aebef04a38.jpg" height="502px" width="402px"/>
+                <h2>Rare3</h2>
+                <p>Price: $400</p>
+                <button onclick="addToCart('Rare3', 400,'new/3757e795961677f3f1dff6aebef04a38.jpg')">Add to Cart</button>
+            </div>
+            <div>
+                <img class="image" src="new/3.jpg" height="502px" width="402px"/>
+                <h2>Rare4</h2>
+                <p>Price: $200</p>
+                <button onclick="addToCart('Rare4', 200,'new/3.jpeg')">Add to Cart</button>
+            </div>
+        </div>
+        <div class="clothin-align">
+            <div>
+                <img class="image" src="new/7.jpg" height="502px" width="402px"/>
+                <h2>Rare5</h2>
+                <p>Price: $350</p>
+                <button onclick="addToCart('Rare5', 350,'new/7.jpeg')">Add to Cart</button>
+            </div>
+            <div>
+                <img class="image" src="new/10.jpeg" height="502px" width="402px"/>
+                <h2>Rare6</h2>
+                <p>Price: $250</p>
+                <button onclick="addToCart('Rare6', 250,'new/10.jpeg')">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+    <script src="style.js"></script>
+</body>
+</html>

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shirt</title>
+    <link href="shop.css" rel="stylesheet">
+</head>
+<body>
+    <div class="head">
+        <div class="search-container">
+            <img id="logo" src="logo.jpg" height="40px" width="40"/>
+            <h1 id="design"><em>Elegence</em></h1>
+        </div>
+        <div class="search-container">
+            <input class="search-input" type="text" id="searchBox" placeholder="Type to search..." >
+            <button class="search-button" onclick="search()"><img class="heart" src="search-heart.svg" height="20px" width="20px"/></button>
+        </div>
+        <div class="search-container">
+            <img class="heart" src="heart-fill.svg" height="50px" width="40px"/>
+        </div>
+        <a href="cart.html"><div class ="search-container">
+            <img src="cart4.svg" height="40px" width="50px"/>
+        </div></a>
+    </div>
+    <img src="shirtinner.webp" height="500px" width="100%"/>
+    <div class="cloth-align">
+        <div  class="clothin-align">
+            <div class="product">
+                <img class="image" src="shirt/1.jpg" height="402px" width="302px"/>
+                <h2>shirt1</h2>
+                <p>Price: $5</p>
+                <button onclick="addToCart('shirt1', 5,'shirt/1.jpg')">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img class="image" src="shirt/10.jpg" height="402px" width="302px"/>
+                <h2>shirt2</h2>
+                <p>Price: $26</p>
+                <button onclick="addToCart('shirt2', 26,'shirt/10.jpg')">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img class="image" src="shirt/11.jpg" height="402px" width="302px"/>
+                <h2>shirt3</h2>
+                <p>Price: $5</p>
+                <button onclick="addToCart('shirt3', 5,'shirt/11.jpg')">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img class="image" src="shirt/lol.jpg" height="402px" width="302px"/>
+                <h2>shirt4</h2>
+                <p>Price: $10</p>
+                <button onclick="addToCart('shirt4', 10,'shirt/lol.jpg')">Add to Cart</button>
+            </div>
+        </div>
+        <div  class="clothin-align">
+            <div class="product">
+                <img class="image" src="shirt/13.jpg" height="402px" width="302px"/>
+                <h2>shirt5</h2>
+                <p>Price: $15</p>
+                <button onclick="addToCart('shirt5', 15,'shirt/13.jpg')">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img class="image" src="shirt/14.jpg" height="402px" width="302px"/>
+                <h2>shirt6</h2>
+                <p>Price: $22</p>
+                <button onclick="addToCart('shirt6', 22,'shirt/14.jpg')">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img class="image" src="shirt/15.jpg" height="402px" width="302px"/>
+                <h2>shirt7</h2>
+                <p>Price: $15</p>
+                <button onclick="addToCart('shirt7', 15,'shirt/15.jpg')">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img class="image" src="shirt/16.jpg" height="402px" width="302px"/>
+                <h2>shirt8</h2>
+                <p>Price: $20</p>
+                <button onclick="addToCart('shirt8', 20,'shirt/16.jpg')">Add to Cart</button>
+            </div>
+        </div>
+        <div  class="clothin-align">
+            <div class="product">
+                <img class="image" src="shirt/17.jpg" height="402px" width="302px"/>
+                <h2>shirt9</h2>
+                <p>Price: $18</p>
+                <button onclick="addToCart('shirt9', 18,'shirt/17.jpg')">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img class="image" src="shirt/18.jpg" height="402px" width="302px"/>
+                <h2>shirt10</h2>
+                <p>Price: $16</p>
+                <button onclick="addToCart('shirt10', 16,'shirt/18.jpg')">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img class="image" src="shirt/19.jpg" height="402px" width="302px"/>
+                <h2>shirt11</h2>
+                <p>Price: $17</p>
+                <button onclick="addToCart('shirt11', 17,'shirt/19.jpg')">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img class="image" src="shirt/2.jpg" height="402px" width="302px"/>
+                <h2>shirt12</h2>
+                <p>Price: $10</p>
+                <button onclick="addToCart('shirt12', 10,'shirt/2.jpg')">Add to Cart</button>
+            </div>
+        </div>
+        <div  class="clothin-align">
+            <div class="product">
+                <img class="image" src="shirt/20.jpg" height="402px" width="302px"/>
+                <h2>shirt13</h2>
+                <p>Price: $11</p>
+                <button onclick="addToCart('shirt13', 11,'shirt/20.jpg')">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img class="image" src="shirt/4.jpg" height="402px" width="302px"/>
+                <h2>shirt14</h2>
+                <p>Price: $16</p>
+                <button onclick="addToCart('shirt14', 16,'shirt/4.jpg')">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img class="image" src="shirt/5.jpg" height="402px" width="302px"/>
+                <h2>shirt15</h2>
+                <p>Price: $29</p>
+                <button onclick="addToCart('shirt15', 29,'shirt/5.jpg')">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img class="image" src="shirt/6.jpg" height="402px" width="302px"/>
+                <h2>shirt16</h2>
+                <p>Price: $8</p>
+                <button onclick="addToCart('shirt16', 8,'shirt/6.jpg')">Add to Cart</button>
+            </div>
+        </div>
+        <div  class="clothin-align">
+            <div class="product">
+                <img class="image" src="shirt/7.jpg" height="402px" width="302px"/>
+                <h2>shirt17</h2>
+                <p>Price: $18</p>
+                <button onclick="addToCart('shirt17', 18,'shirt/7.jpg')">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img class="image" src="shirt/hont.jpg" height="402px" width="302px"/>
+                <h2>shirt18</h2>
+                <p>Price: $16</p>
+                <button onclick="addToCart('shirt18', 16,'shirt/hont.jpg')">Add to Cart</button>
+            </div>
+                <div class="product">
+                <img class="image" src="shirt/9.jpg" height="402px" width="302px"/>
+                <h2>shirt19</h2>
+                <p>Price: $7</p>
+                <button onclick="addToCart('shirt19', 7,'shirt/9.jpg')">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img class="image" src="shirt/check.jpg" height="402px" width="302px"/>
+                <h2>shirt20</h2>
+                <p>Price: $20</p>
+                <button onclick="addToCart('shirt20', 20,'shirt/check.jpg')">Add to Cart</button>
+            </div>
+        </div>
+
+    </div>
+    <script src="style.js"></script>
+</body>
+</html>

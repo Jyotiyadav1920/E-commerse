@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skirt</title>
+    <link href="shop.css" rel="stylesheet">
+</head>
+<body>
+    <div class="head">
+        <div class="search-container">
+            <img id="logo" src="logo.jpg" height="40px" width="40"/>
+            <h1 id="design"><em>Elegence</em></h1>
+        </div>
+        <div class="search-container">
+            <input class="search-input" type="text" id="searchBox" placeholder="Type to search..." >
+            <button class="search-button" onclick="search()"><img class="heart" src="search-heart.svg" height="20px" width="20px"/></button>
+        </div>
+        <div class="search-container">
+            <img class="heart" src="heart-fill.svg" height="50px" width="40px"/>
+        </div>
+        <a href="cart.html"><div class ="search-container">
+            <img src="cart4.svg" height="40px" width="50px"/>
+        </div></a>
+    </div>
+    <img src="skirtinner.webp" height="500px" width="100%"/>
+    <div class="cloth-align">
+        <div class="clothin-align">
+            <div class="product">
+                <img class="image" src="skirts/1.jpg" height="402px" width="302px"/>
+                <h2>Skirt1</h2>
+                <p>Price: $13</p>
+                <button onclick="addToCart('Skirt1', 13,'skirts/1.jpg')">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img class="image" src="skirts/22.jpg" height="402px" width="302px"/>
+                <h2>Skirt22</h2>
+                <p>Price: $16</p>
+                <button onclick="addToCart('Skirt2', 16,'skirts/22.jpg')">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img class="image" src="skirts/21.jpg" height="402px" width="302px"/>
+                <h2>Skirt3</h2>
+                <p>Price: $18</p>
+                <button onclick="addToCart('Skirt3', 1,'skirts/21.jpg')">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img class="image" src="skirts/4.jpg" height="402px" width="302px"/>
+                <h2>Skirt4</h2>
+                <p>Price: $20</p>
+                <button onclick="addToCart('Skirt4', 20,'skirts/4.jpg')">Add to Cart</button>
+            </div>            
+        </div>
+        <div class="clothin-align">
+            <div class="product">
+                <img class="image" src="skirts/5.jpg" height="402px" width="302px"/>
+                <h2>Skirt5</h2>
+                <p>Price: $13</p>
+                <button onclick="addToCart('Skirt5', 13,'skirts/5.jpg')">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img class="image" src="skirts/6.jpg" height="402px" width="302px"/>
+                <h2>Skirt6</h2>
+                <p>Price: $30</p>
+                <button onclick="addToCart('Skirt6', 30,'skirts/6.jpg')">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img class="image" src="skirts/7.jpg" height="402px" width="302px"/>
+                <h2>Skirt7</h2>
+                <p>Price: $18</p>
+                <button onclick="addToCart('Skirt7', 18,'skirts/7.jpg')">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img class="image" src="skirts/8.jpg" height="402px" width="302px"/>
+                <h2>Skirt8</h2>
+                <p>Price: $20</p>
+                <button onclick="addToCart('Skirt8', 20,'skirts/8.jpg')">Add to Cart</button>
+            </div>
+        </div>
+        <div class="clothin-align">
+            <div class="product">
+                <img class="image" src="skirts/9.jpg" height="402px" width="302px"/>
+                <h2>Skirt9</h2>
+                <p>Price: $7</p>
+                <button onclick="addToCart('Skirt9', 7,'skirts/9.jpg')">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img class="image" src="skirts/10.jpg" height="402px" width="302px"/>
+                <h2>Skirt10</h2>
+                <p>Price: $16</p>
+                <button onclick="addToCart('Skirt10', 16,'skirts/10.jpg')">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img class="image" src="skirts/11.jpg" height="402px" width="302px"/>
+                <h2>Skirt11</h2>
+                <p>Price: $12</p>
+                <button onclick="addToCart('Skirt11', 12,'skirts/11.jpg')">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img class="image" src="skirts/12.jpg" height="402px" width="302px"/>
+                <h2>Skirt12</h2>
+                <p>Price: $20</p>
+                <button onclick="addToCart('Skirt12', 20,'skirts/12.jpg')">Add to Cart</button>
+            </div>
+        </div>
+        <div class="clothin-align">
+            <div class="product">
+                <img class="image" src="skirts/13.jpg" height="402px" width="302px"/>
+                <h2>Skirt13</h2>
+                <p>Price: $23</p>
+                <button onclick="addToCart('Skirt13', 23,'skirts/13.jpg')">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img class="image" src="skirts/14.jpg" height="402px" width="302px"/>
+                <h2>Skirt14</h2>
+                <p>Price: $16</p>
+                <button onclick="addToCart('Skirt14', 16,'skirts/14.jpg')">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img class="image" src="skirts/15.jpg" height="402px" width="302px"/>
+                <h2>Skirt15</h2>
+                <p>Price: $27</p>
+                <button onclick="addToCart('Skirt15', 27,'skirts/15.jpg')">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img class="image" src="skirts/16.jpg" height="402px" width="302px"/>
+                <h2>Skirt16</h2>
+                <p>Price: $20</p>
+                <button onclick="addToCart('Skirt16', 20,'skirts/16.jpg')">Add to Cart</button>
+            </div>
+        </div>
+        <div class="clothin-align">
+            <div class="product">
+                <img class="image" src="skirts/17.jpg" height="402px" width="302px"/>
+                <h2>Skirt17</h2>
+                <p>Price: $30</p>
+                <button onclick="addToCart('Skirt17', 30,'skirts/17.jpg')">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img class="image" src="skirts/18.jpg" height="402px" width="302px"/>
+                <h2>Skirt18</h2>
+                <p>Price: $8</p>
+                <button onclick="addToCart('Skirt18', 8,'skirts/18.jpg')">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img class="image" src="skirts/19.jpg" height="402px" width="302px"/>
+                <h2>Skirt19</h2>
+                <p>Price: $27</p>
+                <button onclick="addToCart('Skirt19', 27,'skirts/19.jpg')">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img class="image" src="skirts/20.jpg" height="402px" width="302px"/>
+                <h2>Skirt20</h2>
+                <p>Price: $20</p>
+                <button onclick="addToCart('Skirt20', 20,'skirts/20.jpg')">Add to Cart</button>
+            </div>
+        </div>
+        <div class="clothin-align">
+            <div class="product">
+                <img class="image" src="skirts/23.jpg" height="402px" width="302px"/>
+                <h2>Skirt21</h2>
+                <p>Price: $13</p>
+                <button onclick="addToCart('Skirt21', 13,'skirts/23.jpg')">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img class="image" src="skirts/24.jpg" height="402px" width="302px"/>
+                <h2>Skirt22</h2>
+                <p>Price: $16</p>
+                <button onclick="addToCart('Skirt22', 16,'skirts/24.jpg')">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img class="image" src="skirts/25.jpg" height="402px" width="302px"/>
+                <h2>Skirt23</h2>
+                <p>Price: $40</p>
+                <button onclick="addToCart('Skirt23', 40,'skirts/26.jpg')">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img class="image" src="skirts/27.jpg" height="402px" width="302px"/>
+                <h2>Skirt24</h2>
+                <p>Price: $20</p>
+                <button onclick="addToCart('Skirt24', 20,'skirts/27.jpg')">Add to Cart</button>
+            </div>
+        </div>
+        <div class="clothin-align">
+            <div class="product">
+                <img class="image" src="skirts/s1.jpg" height="402px" width="302px"/>
+                <h2>Skirt25</h2>
+                <p>Price: $23</p>
+                <button onclick="addToCart('Skirt25', 23,'skirts/s1.jpg')">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img class="image" src="skirts/s2.jpg" height="402px" width="302px"/>
+                <h2>Skirt26</h2>
+                <p>Price: $16</p>
+                <button onclick="addToCart('Skirt26', 16,'skirts/s2.jpg')">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img class="image" src="skirts/s3.jpg" height="402px" width="302px"/>
+                <h2>Skirt27</h2>
+                <p>Price: $14</p>
+                <button onclick="addToCart('Skirt27', 14,'skirts/s3.jpg')">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img class="image" src="skirts/s4.jpg" height="402px" width="302px"/>
+                <h2>Skirt28</h2>
+                <p>Price: $20</p>
+                <button onclick="addToCart('Skirt28', 20,'skirts/s4.jpg')">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+    <script src="style.js"></script>
+</body>
+</html>

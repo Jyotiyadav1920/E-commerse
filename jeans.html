@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jeans</title>
+    <link href="shop.css" rel="stylesheet">
+</head>
+<body>
+    <div class="head">
+        <div class="search-container">
+            <img id="logo" src="logo.jpg" height="40px" width="40"/>
+            <h1 id="design"><em>Elegence</em></h1>
+        </div>
+        <div class="search-container">
+            <input class="search-input" type="text" id="searchBox" placeholder="Type to search..." >
+            <button class="search-button" onclick="search()"><img class="heart" src="search-heart.svg" height="20px" width="20px"/></button>
+        </div>
+        <div class="search-container">
+            <img class="heart" src="heart-fill.svg" height="50px" width="40px"/>
+        </div>
+        <a href="cart.html"><div class ="search-container">
+            <img src="cart4.svg" height="40px" width="50px"/>
+        </div></a>
+    </div>
+    <img src="baggy.webp" height="500px" width="100%"/>
+    <div class="cloth-align">
+        <div class="clothin-align">
+            <div class="product">
+                <img class="image" src="jeans/boyfriend jean/2d611dcb6237f730d1fa35f5bfce84c4.jpg" height="402px" width="302px"/>
+                <h2>Jean1</h2>
+                <p>Price: $50</p>
+                <button onclick="addToCart('Jean1', 50,'jeans/boyfriend jean/2d611dcb6237f730d1fa35f5bfce84c4.jpg')">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img class="image" src="jeans/boyfriend jean/bb.jpg" height="402px" width="302px"/>
+                <h2>Jean2</h2>
+                <p>Price: $10</p>
+                <button onclick="addToCart('Jean2', 10,'jeans/boyfriend jean/bb.jpg')">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img class="image" src="jeans/distressed/a.jpg" height="402px" width="302px"/>
+                <h2>Jean3</h2>
+                <p>Price: $20</p>
+                <button onclick="addToCart('Jean3', 20,'jeans/distressed/a.jpg')">Add to Cart</button>
+            </div>
+            <div>
+                <img class="image" src="jeans/distressed/b.jpg" height="402px" width="302px"/>
+                <h2>Jean4</h2>
+                <p>Price: $30</p>
+                <button onclick="addToCart('Jean4', 30,'jeans/distressed/b.jpg')">Add to Cart</button>
+            </div>
+        </div>
+        <div class="clothin-align">
+            <div>
+                <img class="image" src="jeans/distressed/c.jpg" height="402px" width="302px"/>
+                <h2>Jean5</h2>
+                <p>Price: $25</p>
+                <button onclick="addToCart('Jean5', 25,'jeans/distressed/c.jpg')">Add to Cart</button>
+            </div> 
+            <div>
+                <img class="image" src="jeans/distressed/d.jpg" height="402px" width="302px"/>
+                <h2>Jean6</h2>
+                <p>Price: $20</p>
+                <button onclick="addToCart('Jean6', 20,'jeans/distressed/d.jpg')">Add to Cart</button>
+            </div>
+            <div>
+                <img class="image" src="jeans/distressed/e.jpg" height="402px" width="302px"/>
+                <h2>Jean7</h2>
+                <p>Price: $10</p>
+                <button onclick="addToCart('Jean7', 10,'jeans/distressed/e.jpg')">Add to Cart</button>
+            </div>
+            <div>
+                <img class="image" src="jeans/distressed/f.jpg" height="402px" width="302px"/>
+                <h2>Jean8</h2>
+                <p>Price: $25</p>
+                <button onclick="addToCart('Jean8', 25,'jeans/distressed/f.jpg')">Add to Cart</button>
+            </div>
+        </div>
+        <div class="clothin-align">
+            <div>
+                <img class="image" src="jeans/distressed/g.jpg" height="402px" width="302px"/>
+                <h2>Jean9</h2>
+                <p>Price: $15</p>
+                <button onclick="addToCart('Jean9', 15,'jeans/distressed/g.jpg')">Add to Cart</button>
+            </div>
+            <div>
+                <img class="image" src="jeans/distressed/i.jpg" height="402px" width="302px"/>
+                <h2>Jean10</h2>
+                <p>Price: $22</p>
+                <button onclick="addToCart('Jean10', 22,'jeans/distressed/i.jpg')">Add to Cart</button>
+            </div>
+            <div>
+                <img class="image" src="jeans/distressed/j.jpg" height="402px" width="302px"/>
+                <h2>Jean11</h2>
+                <p>Price: $36</p>
+                <button onclick="addToCart('Jean11', 36,'jeans/distressed/j.jpg')">Add to Cart</button>
+            </div>
+            <div>
+                <img class="image" src="jeans/distressed/k.jpg" height="402px" width="302px"/>
+                <h2>Jean12</h2>
+                <p>Price: $17</p>
+                <button onclick="addToCart('Jean12', 17,'jeans/distressed/k.jpg')">Add to Cart</button>
+            </div>
+        </div>
+        <div class="clothin-align">
+            <div>
+                <img class="image" src="jeans/flarred jean/1.jpg" height="402px" width="302px"/>
+                <h2>Jean13</h2>
+                <p>Price: $15</p>
+                <button onclick="addToCart('Jean13', 15,'jeans/flarred jean/1.jpg')">Add to Cart</button>
+            </div>
+            <div>
+                <img class="image" src="jeans/flarred jean/10.jpg" height="402px" width="302px"/>
+                <h2>Jean14</h2>
+                <p>Price: $50</p>
+                <button onclick="addToCart('Jean14', 50,'jeans/flarred jean/10.jpg')">Add to Cart</button>
+            </div>
+            <div>
+                <img class="image" src="jeans/flarred jean/11.png" height="402px" width="302px"/>
+                <h2>Jean15</h2>
+                <p>Price: $50</p>
+                <button onclick="addToCart('Jean15', 50,'jeans/flarred jean/11.jpg')">Add to Cart</button>
+            </div>
+            <div>
+                <img class="image" src="jeans/flarred jean/12.jpg" height="402px" width="302px"/>
+                <h2>Jean16</h2>
+                <p>Price: $40</p>
+                <button onclick="addToCart('Jean16', 40,'jeans/flarred jean/12.jpg')">Add to Cart</button>
+            </div>
+        </div>
+        <div class="clothin-align">
+            <div>                
+                <img class="image" src="jeans/flarred jean/13.jpg" height="402px" width="302px"/>
+                <h2>Jean17</h2>
+                <p>Price: $45</p>
+                <button onclick="addToCart('Jean17', 45,'jeans/flarred jean/13.jpg')">Add to Cart</button>
+            </div>
+            <div>
+                <img class="image" src="jeans/straighht fit/black.jpg" height="402px" width="302px"/>
+                <h2>Jean18</h2>
+                <p>Price: $40</p>
+                <button onclick="addToCart('Jean18', 40,'jeans/straighht fit/black.jpg')">Add to Cart</button>
+            </div>
+            <div>
+                <img class="image" src="jeans/straighht fit/blue.jpg" height="402px" width="302px"/>
+                <h2>Jean19</h2>
+                <p>Price: $20</p>
+                <button onclick="addToCart('Jean19', 20,'jeans/straighht fit/blue.jpg')">Add to Cart</button>
+            </div>
+            <div>
+                <img class="image" src="jeans/straighht fit/cut.jpg" height="402px" width="302px"/>
+                <h2>Jean20</h2>
+                <p>Price: $35</p>
+                <button onclick="addToCart('Jean20', 35,'jeans/straighht fit/cut.jpg')">Add to Cart</button>
+            </div>
+        </div>
+        <div class="clothin-align">
+            <div>
+                <img class="image" src="jeans/straighht fit/deepblue.jpg " height="402px" width="302px"/>
+                <h2>Jean21</h2>
+                <p>Price: $20</p>
+                <button onclick="addToCart('Jean21', 20,'jeans/straighht fit/deepblue.jpg ')">Add to Cart</button>
+            </div>
+            <div>
+                <img class="image" src="jeans/straighht fit/design.jpg " height="402px" width="302px"/>
+                <h2>Jean22</h2>
+                <p>Price: $48</p>
+                <button onclick="addToCart('Jean22', 48)">Add to Cart</button>
+            </div>
+            <div>
+                <img class="image" src="jeans/straighht fit/fade.jpg" height="402px" width="302px"/>
+                <h2>Jean23</h2>
+                <p>Price: $10</p>
+                <button onclick="addToCart('Jean23', 10)">Add to Cart</button>
+            </div>
+            <div>
+                <img class="image" src="jeans/straighht fit/heart.jpg" height="402px" width="302px"/>
+                <h2>Jean24</h2>
+                <p>Price: $30</p>
+                <button onclick="addToCart('Jean24', 30)">Add to Cart</button>
+            </div>
+        </div>
+        <div class="clothin-align">
+            <div>
+                <img class="image" src="jeans/straighht fit/high.jpg" height="402px" width="302px"/>
+                <h2>Jean25</h2>
+                <p>Price: $40</p>
+                <button onclick="addToCart('Jean16', 40)">Add to Cart</button>
+            </div>
+            <div>
+                <img class="image" src="jeans/straighht fit/line.jpg" height="402px" width="302px"/>
+                <h2>Jean26</h2>
+                <p>Price: $23</p>
+                <button onclick="addToCart('Jean26', 23,'jeans/straighht fit/line.jpg')">Add to Cart</button>
+            </div>
+            <div>
+                <img class="image" src="jeans/straighht fit/star.jpg" height="402px" width="302px"/>
+                <h2>Jean27</h2>
+                <p>Price: $44</p>
+                <button onclick="addToCart('Jean27', 44,'jeans/straighht fit/star.jpg')">Add to Cart</button>
+            </div>
+            <div>
+                <img class="image" src="jeans/wide leg/dd.jpeg" height="402px" width="302px"/>
+                <h2>Jean28</h2>
+                <p>Price: $17</p>
+                <button onclick="addToCart('Jean28', 17,'jeans/wide leg/dd.jpeg')">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+    <script src="style.js"></script>
+</body>
+</html>
